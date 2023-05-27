@@ -1,0 +1,51 @@
+// *
+//     border: 2px solid #666
+    font-family:微軟正黑體
+    font-size: 20px
+    //所有指令都產生一個方塊
+html,body
+    background-color: #fea723
+    width: 100%
+    height: 100%
+    display: flex //在body的div設定位置
+    justify-content: center //左右置中
+    align-items: center //上下置中
+.box
+    width: 380px
+    background-color: #fff
+.top
+    height: 330px
+    background-image: url(https://pic.pimg.tw/sidney6811/1529508979-1559019819_n.jpg)
+    background-size: cover
+    position: relative
+    //以.top左上角為相關位置
+.name
+    position: absolute //.name為絕對位置
+    left: 0px
+    bottom: 0px
+    margin: 0px //削掉外距降到最底部
+    padding: 5px 15px //字和框的內距
+    color: #fff
+    letter-spacing: 2px
+    font-size: 24px
+    .smalltext
+        font-size: 18px //讓同一行的字大小不同
+.cirbutton
+    width: 30px
+    height: 30px
+    background-color: #fea723
+    position: absolute //.name為絕對位置
+    right: 10px
+    bottom: -15px
+    border-radius: 50% //圓角0%為正方形50%為圓形
+.button
+    padding: 10px 20px 20px 20px //字和框的內距 上右下左
+    ul
+        list-style: none
+        padding-left: 0px
+    li
+        padding: 5px 0px //字和框的內距
+    h3
+        display: inline-block //設定方塊同一行，讓h3不會有enter效果
+
+
